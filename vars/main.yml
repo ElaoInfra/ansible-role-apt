@@ -97,7 +97,7 @@ elao_apt_repositories_patterns:
     source: deb http://www.rabbitmq.com/debian/ testing main
     key:
       url: http://www.rabbitmq.com/rabbitmq-signing-key-public.asc
-      id:  056E8E56
+      id:  6026DFCA
   proxmox:
     source: deb http://download.proxmox.com/debian {{ ansible_distribution_release }} pve-no-subscription
   proxmox_enterprise:
@@ -153,7 +153,7 @@ elao_apt_repositories_patterns:
     source: deb http://repo.aptly.info/ squeeze main
     key:
       url: https://www.aptly.info/pubkey.txt
-      id:  9C7DE460
+      id:  2A194991
   docker:
     source: deb https://apt.dockerproject.org/repo debian-{{ ansible_distribution_release }} main
     key:
