@@ -180,6 +180,11 @@ elao_apt_repositories_patterns:
     key:
       url: https://download.newrelic.com/548C16BF.gpg
       id:  548C16BF
+  influxdata:
+    source: deb https://repos.influxdata.com/debian {{ ansible_distribution_release }} stable
+    key:
+      url: https://repos.influxdata.com/influxdb.key
+      id:  2582E0C5
 
 # Preferences
 elao_apt_preferences_dir:      /etc/apt/preferences.d
