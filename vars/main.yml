@@ -168,7 +168,7 @@ elao_apt_repositories_patterns:
 # Preferences
 elao_apt_preferences_patterns:
   vim:           vim*
-  git:           git*
+  git:           git git-*
   php:           php*
   mysql:         mysql*
   nginx:         nginx*
