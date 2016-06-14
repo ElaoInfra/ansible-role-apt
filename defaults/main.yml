@@ -182,7 +182,7 @@ elao_apt_preferences_template: preferences/empty.j2
 elao_apt_preferences:          []
 elao_apt_preferences_patterns:
   vim:           vim*
-  git:           git*
+  git:           git git-*
   php:           php*
   mysql:         mysql*
   nginx:         nginx*
