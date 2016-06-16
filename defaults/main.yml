@@ -175,6 +175,11 @@ elao_apt_repositories_patterns:
     key:
       url: http://keys.gnupg.net/pks/lookup?op=get&search=0xDCDA85C08C8D73A4
       id:  8C8D73A4
+  newrelic:
+    source: deb http://apt.newrelic.com/debian/ newrelic non-free
+    key:
+      url: https://download.newrelic.com/548C16BF.gpg
+      id:  548C16BF
 
 # Preferences
 elao_apt_preferences_dir:      /etc/apt/preferences.d
