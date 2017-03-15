@@ -69,6 +69,7 @@ None
 | `elao_apt_repositories` | []       | Array | Collection of repositories |
 | `elao_apt_preferences`  | []       | Array | Collection of preferences  |
 | `elao_apt_packages`     | []       | Array | Collection of packages     |
+| `elao_apt_update_valid_time` | 180 | Int   | Permitted age of apt cache, in seconds |
 
 ### Example
 
