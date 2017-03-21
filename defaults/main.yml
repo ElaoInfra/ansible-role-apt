@@ -24,3 +24,4 @@ elao_apt_packages: []
 # Update / Upgrade
 elao_apt_update:  "{{ elao.update|default(false) if (elao is defined) else false }}"
 elao_apt_upgrade: "{{ elao.upgrade|default(false) if (elao is defined) else false }}"
+elao_apt_update_valid_time: 180

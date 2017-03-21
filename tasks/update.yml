@@ -3,4 +3,4 @@
 - name: update > Update cache
   apt:
     update_cache:     yes
-    cache_valid_time: 180
+    cache_valid_time: "{{ elao_apt_update_valid_time }}"
