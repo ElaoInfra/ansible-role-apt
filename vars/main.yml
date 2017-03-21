@@ -164,11 +164,6 @@ elao_apt_repositories_patterns:
     key:
       url: http://p80.pool.sks-keyservers.net/pks/lookup?op=get&search=0xF76221572C52609D
       id:  2C52609D
-  elao:
-    source: deb https://debian.elao.com {{ ansible_distribution_release }} main
-    key:
-      url: http://keys.gnupg.net/pks/lookup?op=get&search=0xDCDA85C08C8D73A4
-      id:  8C8D73A4
   newrelic:
     source: deb http://apt.newrelic.com/debian/ newrelic non-free
     key:
